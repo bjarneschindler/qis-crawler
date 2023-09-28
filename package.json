@@ -1,7 +1,8 @@
 {
-  "name": "qis-crawler",
+  "name": "qisc",
+  "repository": "https://github.com/bjarneschindler/qis-crawler",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": {
     "name": "Bjarne Schindler",
     "email": "hello@bjarneschiindler.dev",
@@ -15,8 +16,7 @@
     "prepack": "pnpm build"
   },
   "bin": {
-    "qisc": "./dist/cli.mjs",
-    "qis-crawler": "./dist/cli.mjs"
+    "qisc": "./dist/cli.mjs"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

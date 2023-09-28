@@ -1,4 +1,4 @@
-# qis-crawler
+# qisc (qis-crawler)
 
 Get's your average grade from the QIS of Fachhochschule Kiel.
 
