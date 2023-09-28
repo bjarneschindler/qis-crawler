@@ -1,0 +1,32 @@
+{
+  "name": "qis-crawler",
+  "type": "module",
+  "version": "1.0.6",
+  "author": {
+    "name": "Bjarne Schindler",
+    "email": "hello@bjarneschiindler.dev",
+    "url": "https://github.com/bjarneschindler"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pkgroll --minify",
+    "prepack": "pnpm build"
+  },
+  "bin": {
+    "qisc": "./dist/cli.mjs",
+    "qis-crawler": "./dist/cli.mjs"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clean-pkg-json": "^1.2.0",
+    "dotenv": "^16.3.1",
+    "pkgroll": "^1.11.1",
+    "puppeteer": "^21.3.5",
+    "winston": "^3.10.0"
+  }
+}
