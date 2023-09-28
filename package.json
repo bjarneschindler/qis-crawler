@@ -2,7 +2,7 @@
   "name": "qisc",
   "repository": "https://github.com/bjarneschindler/qis-crawler",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": {
     "name": "Bjarne Schindler",
     "email": "hello@bjarneschiindler.dev",
