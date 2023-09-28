@@ -1,8 +1,9 @@
 {
   "name": "qisc",
+  "description": "Get information about passed exams from the QIS of Kiel University of Applied Sciences.",
   "repository": "https://github.com/bjarneschindler/qis-crawler",
   "type": "module",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Bjarne Schindler",
     "email": "hello@bjarneschiindler.dev",
